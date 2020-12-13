@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: fantasy;
+  font-family: cursive;
   box-sizing: border-box;
 }
 body{
@@ -16,7 +16,7 @@ header{
 
 
   height:calc(100vh/5);
-  box-sizing: content-box;
+
 }
 h1{
 padding-left: 42%;
@@ -43,12 +43,11 @@ ul{
 nav li{
   display: inline-block;
   margin-right: 7%;
-  padding-bottom: 5px;
+
 
 }
 /* this is for modifying the color  of my navigation hyperlinks */
 li a{
-  display: block;
   padding: 5px;
   text-decoration: none;
 
@@ -75,6 +74,8 @@ table{
 
 
 }
+/*padding for my description lists*/
+
 dt, dd{
   padding-bottom: 10px;
 }
@@ -84,7 +85,7 @@ dd{
 
 nav{
   background-color: #02040F;
-  padding-bottom: 5px;
+
 }
 
 .content{
@@ -94,19 +95,24 @@ nav{
 /*this is for the positioning of the divs within container div*/
 .section{
 
-  width: calc(100vw / 2.01);
-  height:calc(100vh/1.25);
+  width: calc(100vw / 2.02);
+  height:calc(100vw/2);
 
 
 
 
 }
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
 
+}
 /* these are for adding color to my seperate divs and making the even one sit on right side of page*/
 .section:nth-of-type(odd){
   background-color: #002462;
   color: #FF7500;
-  float: right;
+
+
 
 
 
