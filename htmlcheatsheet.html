@@ -27,7 +27,7 @@
   <div class="container">
 
 
-    <div class="section">
+    <div id="one" class="section">
       <div class="content">
         <h2>Required Code</h2>
         <p>every html page must have certain tags in order for them to work properly</p>
@@ -60,37 +60,43 @@
 
       </div>
     </div>
-    <div class="section">
+
+    <div id="two" class="section">
 
       <section>
-        <table>
+        <table >
           <caption>
             <h3>Base Structure Code</h3>
           </caption>
           <thead>
             <th>Tag</th>
             <th>Purpose</th>
+
           </thead>
-          <tbody>
-            <tr id="ptag">
+          <tbod>
+            <tr>
               <td>&lt;p&gt;</td>
               <td>this tag is for a paragraph if you want to start a new line the the &lt;br&gt; tag</td>
+
             </tr>
-            <tr id="pre">
+            <tr >
               <td>&lt;pre&gt;</td>
               <td>this is for pre formatted text. It will print exactly as inputed including line breaks</td>
+
             </tr>
-            <tr id="htag">
+            <tr>
               <td>&lt;h1&gt; to &lt;h6&gt;</td>
               <td>These are for different sizes of headers h1 being largest font.</td>
+
             </tr>
-            <tr id="div">
+            <tr>
               <td>&lt;div&gt; or &lt;section&gt;</td>
               <td>both are used to indicate blocks of text except section has a smaller font size.</td>
             </tr>
             <tr>
               <td>&lt;a&gt;</td>
               <td>This tag is used to create hyper links</td>
+
             </tr>
             <tr>
               <td>&lt;img&gt;</td>
@@ -104,13 +110,15 @@
               <td>&lt;iframe&gt;</td>
               <td>used to display a webpage in a webpage but is really useful for youtube videos.</td>
             </tr>
-            <tr id="italics">
+            <tr>
               <td>&lt;i&gt; &lt;em&gt;</td>
               <td>these apply italics to text &lt;em&gt; is for emphasizing importance</td>
+
             </tr>
-            <tr id="bold">
+            <tr>
               <td>&lt;b&gt; &lt;strong&gt;</td>
               <td>both apply bold to text &lt;strong&gt; is for strong importance</td>
+
             </tr>
             <tr>
               <td>&lt;header&gt; &lt;footer&gt;</td>
@@ -119,6 +127,7 @@
             <tr>
               <td>&lt;q&gt; &lt;blockquote&gt;</td>
               <td>blockquote for a large quote from external source q applies quotation marks</td>
+
             </tr>
             <tr>
               <td>&lt;span&gt;</td>
@@ -129,17 +138,56 @@
               <td>usually used for highlighting certain text</td>
             </tr>
           </tbody>
+
         </table>
+
+
       </section>
     </div>
 
+      <div id="two" class="section">
+        <section>
+          <form class="contact form" action="index.html" method="post">
+            <fieldset>
+              <legend>contact form example</legend>
+              <label for="">Full name: <input type="text" name="" placeholder="enter your name please"> </label> <br>
+              <label for="">your Email: <input type="text" name="" value="" placeholder="what email can you be reached at?"> </label> <br>
+              <label for="message">What would you like to say?: </label> <br>
+              <textarea id="message" name="name" rows="8" cols="40" placeholder="please enter your message" wrap="hard" ></textarea> <br>
+              <input type="button" name="" value="send message">
+            </fieldset>
+          </form>
+        </section>
 
 
+      </div>
 
+      <div id="one" class="section">
+        <div class="examples">
+          <dl id=examples class="">
+            <dt>&lt;p&gt;</dt>
+            <dd><p>this is an example of a p tag</p> </dd>
+            <dt>&lt;pre&gt;</dt>
+            <dd><pre>this is pre
+            formatted text!</pre> </dd>
+            <dt>&lt;h1&gt; to &lt;h6&gt;</dt>
+            <dd><h1>h1</h1> <h2>h2</h2> <h3>h3</h3><h4>h4</h4> <h5>h5</h5> <h6>h6</h6> </dd>
+            <dt>&lt;a&gt;</dt>
+            <dd> <a href="https://www.w3schools.com/html/html_links.asp">this whole sentence is a hyperlink</a> </dd>
+            <dt>&lt;i&gt; &lt;em&gt;</dt>
+            <dd> <i>this is italics</i> <br> <em>this is emphasis</em> </dd>
+            <dt>&lt;b&gt; &lt;strong&gt;</dt>
+            <dd> <b>this is bold</b> <br> <strong>this is strong</strong> </dd>
+            <dt>&lt;q&gt; &lt;blockquote&gt;</dt>
+            <dd><q cite="">this is q tag</q> <blockquote cite="http://">this is a blockquote
+            </blockquote></dd>
 
-  </div>
+          </dl>
+        
+        </div>
 
-
+      </div>
+    </div>
 
 </body>
 
