@@ -129,9 +129,11 @@ nav {
   background-color: #840032;
   color: #E5DADA;
 }
-
+#examples{
+  display: none;
+}
 .examples{
-  margin-left: 30%;
+  margin-left: 5%;
 
 }
 .examples dt{
