@@ -12,35 +12,36 @@ body {
 }
 
 header h1, h2, nav {
+  text-align: center;
   padding: 5px;
 }
 
-header {
-  height: calc(100vh/5);
-}
+
 button{
   padding: 5px;
-  margin: 10px 0 0 45%;
+  margin-left: 25%;
+  margin-top: 5px;
   background-color: black;
   color: #E5DADA;
 }
 form{
-  width: 65%;
+ 
   line-height: 200%;
-  margin-left: 15%;
+  
 }
 label,input,textarea{
   padding: 5px;
-  margin: 5px 0 5px 5%;
+  margin: 10px 5px;
 }
 .header h1 {
-  padding-left: 42%;
+  
   background-color: #002462;
   color: #E5DADA;
 }
 
 header>div h2 {
-  padding: 10px 0 10px 38%;
+
+  
   background-color: #840032;
   color: #E5DADA;
 }
@@ -49,33 +50,29 @@ h3 {
   padding: 5px 0;
 }
 
-ul {
-  list-style: none;
-  display: block;
-  width: 35%;
-  margin-left: 35%;
-  padding: 5px 0 5px 5%;
-  border: 1px solid black;
-}
 
-nav li {
+
+nav a {
   display: inline-block;
-  margin-right: 7%;
+  margin-right: 7px;
 }
 
 /* this is for modifying the color  of my navigation hyperlinks */
-li a {
+nav a {
   padding: 5px;
   text-decoration: none;
   background: linear-gradient(to bottom, #E59500 5%, #FF7500 100%);
 }
-
-li a:hover {
+nav a:hover {
   background: linear-gradient(to bottom, #FF7500 5%, #E59500 100%);
+}
+.section{
+  display: flex;
+  justify-content: center;
 }
 
 .content h2 {
-  padding-left: 30%;
+ 
   padding-bottom: 10px;
   border: none;
 }
@@ -106,10 +103,7 @@ nav {
   background-color: #02040F;
 }
 
-.content {
-  width: 80%;
-  margin-left: 10%;
-}
+
 
 /*this is for the positioning of the divs within container div*/
 

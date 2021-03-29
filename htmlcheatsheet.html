@@ -14,12 +14,11 @@
       <h1>HTML knowledge</h1>
       <h2>An HTML cheatsheet to look back at</h2>
       <nav>
-        <ul>
-          <li><a href="index.html">home</a> </li>
-          <li><a href="resume.html">resume</a> </li>
-          <li><a href="htmlcheatsheet.html">html</a> </li>
-          <li><a href="hobby.html">hobby</a> </li>
-        </ul>
+        
+          <a href="index.html">home</a>
+          <a href="resume.html">resume</a>
+          <a href="htmlcheatsheet.html">html</a>
+          <a href="hobby.html">hobby</a>        
       </nav>
     </div>
   </header>
@@ -138,26 +137,26 @@
               <td>usually used for highlighting certain text</td>
             </tr>
           </tbody>
-
         </table>
         <button type="button" name="button" onclick="document.getElementById('examples').style.display = 'block';">click for examples</button>
 
-
+  
       </section>
     </div>
 
       <div id="two" class="section">
         <section>
-          <form class="contact form" action="index.html" method="post">
+          <form class="contact form" action="mailto:b.huppe591@mybvc.ca">
             <fieldset>
               <legend>contact form example</legend>
               <label for="">Full name: <input type="text" name="" placeholder="enter your name please"> </label> <br>
               <label for="">your Email: <input type="text" name="" value="" placeholder="what email can you be reached at?"> </label> <br>
               <label for="message">What would you like to say?: </label> <br>
               <textarea id="message" name="name" rows="8" cols="40" placeholder="please enter your message" wrap="hard" ></textarea> <br>
-              <input type="button" name="" value="send message">
+              <input type="submit" name="submit" id="">
             </fieldset>
           </form>
+          <p>this form works so feel free to contact me.</p>
         </section>
 
 
